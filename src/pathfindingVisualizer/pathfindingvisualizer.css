@@ -1,0 +1,86 @@
+.isDisabled {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #24292e;
+  /* width: 220px; */
+}
+
+.dropdown-menu button {
+  background: none;
+  border: none;
+  /* padding: 0!important; */
+
+  text-decoration: none;
+  display: block;
+  color: white;
+  width: 220px;
+  margin: 0;
+  padding: 5px 10px;
+}
+.drops {
+  position: relative;
+}
+
+.show {
+  display: block;
+}
+
+.navbar {
+  background-color: #24292e;
+  padding: 5px;
+  justify-content: center;
+  padding: 0;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li button {
+  border: none;
+  background: none;
+
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 14px 16px;
+    margin: 0;
+}
+
+li button:hover {
+  border: none;
+  background-color: springgreen;
+  text-decoration: none;
+  color: #24292e;
+}
+
+li {
+  float: left;
+}
+
+.algo {
+  color: white;
+}
+
+.maze {
+  color: white;
+}
+
